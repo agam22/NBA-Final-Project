@@ -1,105 +1,116 @@
- Evolution of NBA Playing Styles — Data Science Final Project
-Data Science Workshop — Final Project
+#  Evolution of NBA Playing Styles  
+### *Data Science Final Project – Open University of Israel*  
+Instructor: **Dr. Idan Alter**
 
+---
+
+##  Overview
+
+This project investigates **how the NBA has evolved over the decades** — from mid-range heavy offenses and rigid positions to today’s **positionless, three-point-driven game**.
+
+Through data-driven storytelling, we explore:
+- the rise of three-point shooting,  
+- the fall of mid-range play,  
+- and the statistical convergence between guards, forwards, and centers.
+
+Our analysis blends **data cleaning**, **EDA**, **mathematical modeling**, and **visual analytics** to reveal the league’s structural evolution.
+
+---
+
+##  Project Objectives
+
+1. **Quantify** the stylistic shifts in NBA play since the 1970s.  
+2. **Visualize** changes in shooting profiles and spacing.  
+3. **Measure** the evolution of player roles and positional fluidity.  
+4. **Demonstrate** data-science techniques to tell a cohesive story of basketball’s transformation.
+
+---
+
+##  Datasets
+
+| File | Description |
+|------|--------------|
+| `Advanced.csv` | Player-level advanced metrics (TS%, BPM, USG%, etc.) per season. |
+| `league_season_summary.csv` | League-level summaries — offensive pace, efficiency, and shot zones. |
+| `shots_sampled.csv` | Sampled shot distances for distribution and spatial analysis. |
+| `team_season_3pt_share.csv` | Team-level share of 3-point attempts by season. |
+
+
+Each dataset contributes to a unified narrative of **efficiency, volume, and positional change**.
+
+---
+
+## 🧠 Methodology
+
+### 1. Data Cleaning & Preprocessing
+- Standardized season formats (`1998-99 → 1999`)  
+- Removed missing / invalid rows  
+- Normalized metrics (e.g., per 100 possessions)
+
+### 2. Exploratory Data Analysis (EDA)
+- Trends in **shot distance**, **True Shooting %**, and **3-point rate**  
+- Comparison by **era** and **position**  
+- Correlation and variance analysis to detect role convergence
+
+### 3. Research Questions
+- 🧩 *When did “positionless basketball” truly emerge?*  
+- 📈 *How did shot selection shifts drive scoring efficiency?*  
+- 🏗️ *Did big men evolve into playmakers?*  
+- ⚙️ *What quantitative signals define the modern NBA?*
+
+### 4. Statistical Tools
+- Correlation & regression analysis  
+- Moving averages and trend modeling  
+- Variance reduction tests between positions  
+
+Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `scikit-learn`
+
+---
+
+## 📊 Key Findings
+
+- 📈 **Three-point volume skyrocketed** post-2010, reshaping spacing and pace.  
+- 📉 **Mid-range shots collapsed**, replaced by rim and perimeter efficiency.  
+- 🔄 **Positional boundaries blurred**, with forwards and centers taking on guard-like roles.  
+- 🧮 Statistical modeling confirms that **shot mix alone** explains much of the rise in league-wide TS%.  
+
+---
+
+## 💻 Technologies Used
+
+| Category | Tools |
+|-----------|-------|
+| Programming | Python 3.12 |
+| Environment | Jupyter / Google Colab |
+| Data Libraries | pandas, numpy |
+| Visualization | matplotlib, seaborn |
+| Modeling | statsmodels, scikit-learn |
+
+---
+
+## 🧾 Deliverables
+
+-  **Rendered Notebook** 
+-  **Recorded Presentation (10–20 min)** explaining the notebook and findings  
+-  **Data Links** to all used datasets  
+-  **Personal Reflection Summary** — project experience & insights
+
+---
+
+##  Future Work
+
+- Integrate **play-by-play spatial data** to calculate spacing indices.  
+- Include **defensive metrics** for a holistic efficiency model.  
+- Use **PCA or clustering** to identify player archetypes across eras.  
+
+---
+
+##  Author
+
+**Agam Yehuda**   
 Instructor: Dr. Idan Alter
 
- Project Overview
+---
 
-This project explores how the NBA has changed over time — both tactically and statistically — through the lens of data science.
-We analyze multi-era datasets containing advanced player metrics, team shot distributions, and league-wide trends to reveal the transformation of basketball from traditional, mid-range oriented play to the modern, positionless, perimeter-focused game.
-
-Our goal is not only to visualize trends but also to provide quantitative evidence for key shifts in the NBA’s evolution.
-
- Objectives
-
-Identify major structural and stylistic changes in NBA play since the 1970s.
-
-Quantify the rise of three-point shooting and spacing.
-
-Analyze changes in player roles and the decline of rigid positional boundaries.
-
-Use statistical and visualization tools to tell a coherent “story” of basketball evolution.
-
- Datasets
-
-We used multiple complementary CSV files (compiled and cleaned within the notebook):
-
-File	Description
-Advanced.csv	Player-level advanced metrics (TS%, BPM, USG%, etc.) for all seasons.
-league_season_summary.csv	League-wide averages and shooting profiles per season.
-shots_sampled.csv	Sampled shot distances for spatial analysis and distribution modeling.
-team_season_3pt_share.csv	Team-level 3P attempt share by season.
-(optional) totals.csv	Aggregated totals used for historical pace/efficiency normalization.
- Methodology
-
-Data Cleaning & Preparation
-
-Standardized season formats (e.g., 1998–99 → 1999).
-
-Removed missing or non-numeric entries.
-
-Normalized key statistics (per 100 possessions, pace-adjusted).
-
-Exploratory Data Analysis (EDA)
-
-Visualized trends in shot distance, efficiency (TS%), and positional metrics.
-
-Compared eras and roles using boxplots, moving averages, and correlation matrices.
-
-Research Questions
-
-When did “positionless basketball” truly emerge?
-
-How did the shift in shot selection affect efficiency?
-
-Did big men evolve into playmakers?
-
-What statistical signals mark the modern era of basketball?
-
-Modeling & Statistical Tools
-
-Trend regressions, correlation analysis, and hypothesis testing.
-
-Python libraries: pandas, numpy, matplotlib, seaborn, statsmodels.
-
- Key Findings
-
-The three-point revolution began slowly after 1979 but accelerated post-2010.
-
-Mid-range shots collapsed as spacing and efficiency metrics (TS%) rose in parallel.
-
-Positional roles blurred, evidenced by assist percentages and usage convergence across positions.
-
-League-wide offensive ratings reached historical peaks — statistically linked to changes in shot mix.
-
- Technologies Used
-
-Python (3.12)
-
-Jupyter / Google Colab
-
-pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels
-
-Optional integration with nba_api and pbpstats for further extensions.
-
- Deliverables
-
-Rendered Notebook (.html or nbviewer link)
-
-Recorded Presentation (10–20 min) — screen + voice explanation of the notebook and findings.
-
-Links to datasets and references
-
-Personal reflection summary
-
- Future Work
-
-Extend analysis to play-by-play spatial data to measure spacing indices.
-
-Incorporate defensive metrics to balance the offensive focus.
-
-Apply unsupervised learning (clustering or PCA) to group similar player archetypes across eras.
-
- Authors
-
-Agam Yehuda
+> *“Basketball has evolved from positions to roles — from mid-range battles to space and efficiency.  
+This project quantifies that journey.”*
