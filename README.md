@@ -67,7 +67,7 @@ Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `sc
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 -  **Three-point volume skyrocketed** post-2010, reshaping spacing and pace.  
 -  **Mid-range shots collapsed**, replaced by rim and perimeter efficiency.  
