@@ -40,7 +40,7 @@ Each dataset contributes to a unified narrative of **efficiency, volume, and pos
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1. Data Cleaning & Preprocessing
 - Standardized season formats (`1998-99 → 1999`)  
@@ -53,10 +53,10 @@ Each dataset contributes to a unified narrative of **efficiency, volume, and pos
 - Correlation and variance analysis to detect role convergence
 
 ### 3. Research Questions
-- 🧩 *When did “positionless basketball” truly emerge?*  
-- 📈 *How did shot selection shifts drive scoring efficiency?*  
-- 🏗️ *Did big men evolve into playmakers?*  
-- ⚙️ *What quantitative signals define the modern NBA?*
+-  *When did “positionless basketball” truly emerge?*  
+-  *How did shot selection shifts drive scoring efficiency?*  
+-  *Did big men evolve into playmakers?*  
+-  *What quantitative signals define the modern NBA?*
 
 ### 4. Statistical Tools
 - Correlation & regression analysis  
@@ -69,14 +69,14 @@ Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `sc
 
 ## 📊 Key Findings
 
-- 📈 **Three-point volume skyrocketed** post-2010, reshaping spacing and pace.  
-- 📉 **Mid-range shots collapsed**, replaced by rim and perimeter efficiency.  
-- 🔄 **Positional boundaries blurred**, with forwards and centers taking on guard-like roles.  
-- 🧮 Statistical modeling confirms that **shot mix alone** explains much of the rise in league-wide TS%.  
+-  **Three-point volume skyrocketed** post-2010, reshaping spacing and pace.  
+-  **Mid-range shots collapsed**, replaced by rim and perimeter efficiency.  
+-  **Positional boundaries blurred**, with forwards and centers taking on guard-like roles.  
+-  Statistical modeling confirms that **shot mix alone** explains much of the rise in league-wide TS%.  
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 | Category | Tools |
 |-----------|-------|
@@ -88,7 +88,7 @@ Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `sc
 
 ---
 
-## 🧾 Deliverables
+##  Deliverables
 
 -  **Rendered Notebook** 
 -  **Recorded Presentation (10–20 min)** explaining the notebook and findings  
@@ -108,9 +108,6 @@ Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `statsmodels`, `sc
 ##  Author
 
 **Agam Yehuda**   
-Instructor: Dr. Idan Alter
 
 ---
 
-> *“Basketball has evolved from positions to roles — from mid-range battles to space and efficiency.  
-This project quantifies that journey.”*
